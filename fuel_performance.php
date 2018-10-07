@@ -102,7 +102,7 @@ include("func/XmAndCmFinal.php");
             </thead>
             <tbody>
                   <tr>
-                     <td><?php echo ALPHA; ?></td>
+                     <td><?php echo $L; ?></td>
                      <td><?php echo $D; ?></td>
                      <td><?php echo $S; ?></td>
                      <td><?php echo $L_metr_sec; ?></td>

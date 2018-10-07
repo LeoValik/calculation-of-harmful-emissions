@@ -18,7 +18,7 @@
     <form action="fuel_performance.php" method="GET" id="my_form">
     
     <div class="table-responsive">
-      <table class="table">
+      <table class="table table-bordered">
       <thead>
         <tr>
           <h3>Расход топлива по кварталам, м<sup>3</sup></h3>
@@ -41,8 +41,8 @@
       </table>
     </div>
 
-    <div class="table-responsive">
-      <table class="table">
+    <div class="table-responsive ">
+      <table class="table table-bordered">
       <thead>
         <tr>
         <h3>Введите данные по кварталам и данные следующих значений:</h3>
@@ -51,7 +51,7 @@
           <th scope="col">H, м</th>
           <th scope="col">&#916; T, град.</th>
           <th scope="col">ПДК CO</th>
-          <th scope="col">ПДК N0<sub>2</sub></th>
+          <th scope="col">ПДК NO<sub>2</sub></th>
         </tr>
       </thead>
       <tbody>

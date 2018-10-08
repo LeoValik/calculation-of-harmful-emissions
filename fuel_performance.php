@@ -45,9 +45,9 @@ include("func/XmAndCmFinal.php");
             <tbody>
                   <tr>
                      <td>Природный газ</td>
-                     <td><?php echo $FuelConsumption_ThousandM3_Year; ?></td>
+                     <td><?php echo $FuelConsumption_Litrs_Second ; ?></td>
                      <td><?php echo $FuelConsumption_M3_Hour; ?></td>
-                     <td><?php echo $FuelConsumption_Litrs_Second; ?></td>
+                     <td><?php echo $FuelConsumption_ThousandM3_Year; ?></td>
                      <td><?php echo Q_KKAL; ?></td>
                      <td><?php echo $HeatOfCombustion_MDj_M3; ?></td>
                      <td><?php echo AIR_V; ?></td>
